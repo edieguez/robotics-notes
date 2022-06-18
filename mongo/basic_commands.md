@@ -16,12 +16,12 @@ db.$collection.insert($JSON)
 # insert MANY registries into $collection
 db.$collection.insertMany($JSON)
 
-# updates the entire document
-db.$collection.update(
+# updates the entire document. The upsert part is optional
+db.$collection.updateOne(
     {
-        _id: "123abc"
+        _id: ObjectId("62adfcd60ef724af7e477f27")
     },
-    {
+    $set: {
         name: "Seiga",
         lastname: "Kaku"
     },
