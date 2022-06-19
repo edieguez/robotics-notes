@@ -5,7 +5,7 @@
 - $nor
 - $not
 
-## $and xample
+## $and example
 
 ```javascript
 db.users.find({
