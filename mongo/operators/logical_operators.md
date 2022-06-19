@@ -8,10 +8,10 @@
 ## $and example
 
 ```javascript
-db.users.find({
+db.inventory.find({
   $and: [
-    { name: 'John' },
-    { age: { $gt: 18 } }
+    {name: 'BMW'},
+    {year: 1992}
   ]
 })
 ```
@@ -19,10 +19,10 @@ db.users.find({
 ## $or example
 
 ```javascript
-db.users.find({
+db.inventory.find({
   $or: [
-    { name: 'John' },
-    { age: { $gt: 18 } }
+    {name: 'BMW'},
+    {year: 1992}
   ]
 })
 ```
@@ -30,10 +30,10 @@ db.users.find({
 ## $nor example
 
 ```javascript
-db.users.find({
+db.inventory.find({
   $nor: [
-    { name: 'John' },
-    { age: { $gt: 18 } }
+    {name: 'BMW'},
+    {year: 1992}
   ]
 })
 ```
@@ -41,10 +41,22 @@ db.users.find({
 ## $not example
 
 ```javascript
-db.users.find({
-  $not: {
-    { name: 'John' },
-    { age: { $gt: 18 } }
-  }
+db.inventory.find({
+  $and: [
+    {
+      name: {
+        $not: {
+          $eq: 'BMW'
+        }
+      }
+    },
+    {
+      year: {
+        $not: {
+          $eq: 1992
+        }
+      }
+    }
+  ]
 })
 ```
