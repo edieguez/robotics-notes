@@ -43,10 +43,8 @@ db.users.find({
 ```javascript
 db.users.find({
   $not: {
-    $or: [
-      { name: 'John' },
-      { age: { $gt: 18 } }
-    ]
+    { name: 'John' },
+    { age: { $gt: 18 } }
   }
 })
 ```
