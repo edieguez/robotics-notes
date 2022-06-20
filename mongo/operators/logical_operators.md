@@ -1,9 +1,9 @@
 # Logical operators
 
-- $and
-- $or
-- $nor
-- $not
+1. $and
+2. $or
+3. $nor
+4. $not
 
 ## $and example
 
