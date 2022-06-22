@@ -35,3 +35,60 @@ db.inventory.aggregate([
   }
 ])
 ```
+
+## `$out` example
+
+> Saves the the query's output to `sample_data.purple` collection.
+> It overrides the target collection
+
+```javascript
+db.inventory.aggregate([
+  {
+    $match: {
+      'variations.variation': 'Purple'
+    }
+  },
+  {
+    $unwind: '$variations'
+  },
+  {
+    $match: {
+      'variations.variation': 'Purple'
+    }
+  },
+  {
+    $out: {
+      db: 'sample_data',
+      coll: 'purple'
+    }
+  }
+])
+```
+
+## $merge example
+
+```javascript
+db.inventory.aggregate([
+  {
+    $match: {
+      'variations.variation': 'Purple'
+    }
+  },
+  {
+    $unwind: '$variations'
+  },
+  {
+    $match: {
+      'variations.variation': 'Purple'
+    }
+  },
+  {
+    $merge: {
+      into: 'purple',
+      on: '_id',
+      whenMatched: 'keepExisting',
+      whenNotMatched: 'insert'
+    }
+  }
+])
+```
