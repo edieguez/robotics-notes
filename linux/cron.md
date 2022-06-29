@@ -28,3 +28,20 @@ crontab -e
 ```shell
 crontab -l
 ```
+
+## [fcron](https://www.systutorials.com/docs/linux/man/5-fcrontab)
+
+You can use it if the system is not always up and you need your missing jobs to be executed.
+To activate this option add [this](http://fcron.free.fr/doc/en/fcrontab.5.html#FCRONTAB.5.BOOTRUN) at the start of your fcrontab
+
+```shell
+!bootrun(true)
+```
+
+## Running graphical tools
+
+Add the [`DISPLAY`](https://wiki.archlinux.org/title/Cron#Running_X.org_server-based_applications) variable before invoking your graphical tool
+
+```shell
+* * * * * DISPLAY=:0.0 firefox 'https://google.com'
+```
