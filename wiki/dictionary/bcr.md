@@ -1,0 +1,3 @@
+# BCR
+
+Best Conceivable Runtime
