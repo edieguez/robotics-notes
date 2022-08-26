@@ -16,4 +16,4 @@ Example: languages
 
 Actions that need to be performed and may not involve much conscious thinking at all.
 
-Example: Learning pronuntiation of a word
+Example: Learning pronunciation of a word
