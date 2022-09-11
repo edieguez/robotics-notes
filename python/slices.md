@@ -1,6 +1,22 @@
 # Slices
 
-Slices can work with `str`, `list` or any `iterable`
+Slices can work with `str`, `list`, `tuple` or any `iterable`. It returns a `list`
+
+Is the action of taking sublists from a bigger `iterable`
+
+``` python
+list_ = ['a', 'b', 'c', 'd', 'e']
+
+# invert list_
+list_[::-1]
+
+# ['c', 'd', 'e']
+list_[2:len(list_)]
+
+# exclude the last two elements
+# ['a', 'b', 'c']
+list_[:-2]
+```
 
 `string[:]`
 `string[:end]`
