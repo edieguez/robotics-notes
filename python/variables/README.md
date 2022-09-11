@@ -3,7 +3,8 @@
 - Numbers: `1`, `10`, `999`
 - Floating point numbers: `1.5`, `3.1416`
 - Strings: `"hello world"`, `'Python'`
-- Boolean: `True`, `False`
+- [Boolean](boolean.md): `True`, `False`
+	- In an integer context, boolean literals take the value of 1 and 0 respectively
 
 ## Converting basic types
 

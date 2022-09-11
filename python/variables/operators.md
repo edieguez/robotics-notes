@@ -7,7 +7,7 @@
 - `*` Multiplication: `2 * 5 = 10`
 - `**` Power: `2 ** 8 = 256`
 - `/` Division (floating point): `5 / 2 = 2.5`
-- `//` Division (no floating point): `5 / 2 = 2`
+- `//` Floor division (no floating point): `5 / 2 = 2`
 - `%` Modulus: `5 % 2 = 1`
 
 ## Logic operators
