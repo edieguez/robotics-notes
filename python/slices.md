@@ -1,8 +1,10 @@
 # Slices
 
-Slices can work with `str`, `list`, `tuple` or any `iterable`. It returns a `list`
+- Is the action of taking sublists from a bigger `iterable`
+- Slices can work with `str`, `list`, `tuple` or any `iterable`. It returns a `list`.
+- Any number can be the `start` and `end` indexes. Slicing won't throw a `IndexError` unlike indexing
 
-Is the action of taking sublists from a bigger `iterable`
+> The returned items in a slice are **the same items** present in the original `iterable`. That means that changing the values in a list can affect the slices and viceversa
 
 ``` python
 list_ = ['a', 'b', 'c', 'd', 'e']
