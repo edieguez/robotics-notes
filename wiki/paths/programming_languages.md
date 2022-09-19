@@ -2,6 +2,8 @@
 
 ## Variables
 
+> Are variables passed by value or reference?
+
 1. Types
 2. Valid names
 3. Declaration
