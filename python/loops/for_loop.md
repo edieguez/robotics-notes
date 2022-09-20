@@ -28,3 +28,13 @@ iterable = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 for index in range(1, 10, 2): # Print only odd numbers
     print(iterable[index])
 ```
+
+## For with index using `enumerate`
+
+``` python
+iterable = 'abcdefghijklmnopqrstuvwxyz'
+
+# start argument is optional
+for index, element in enumerate(iterable, start=1):
+	print(f'index: {index}, element: {element}')
+```
