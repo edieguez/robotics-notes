@@ -1,6 +1,7 @@
 # For loop
 
-`iterable` variable can be any Python [iterable](https://docs.python.org/3/glossary.html#term-iterable). Including generators
+- `iterable` variable can be any Python [iterable](https://docs.python.org/3/glossary.html#term-iterable). Including generators.
+- An additional [`else`](else.md) clause is accepted in this loop
 
 ## For each
 
