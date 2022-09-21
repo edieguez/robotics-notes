@@ -16,4 +16,4 @@ else:
     print('The while loop was not executed')
 ```
 
-> The `else` statement can be used in the try-except-finally structures
+> The `else` statement can be used in the [try-except-finally](exceptions.md) structures
