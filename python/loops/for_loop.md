@@ -2,6 +2,7 @@
 
 - `iterable` variable can be any Python [iterable](https://docs.python.org/3/glossary.html#term-iterable). Including generators.
 - An additional [`else`](else.md) clause is accepted in this loop
+- A *compressed* version of this loop can be found in [list comprehensions](comprehension.md)
 
 ## For each
 
@@ -37,5 +38,5 @@ iterable = 'abcdefghijklmnopqrstuvwxyz'
 
 # start argument is optional
 for index, element in enumerate(iterable, start=1):
-	print(f'index: {index}, element: {element}')
+    print(f'index: {index}, element: {element}')
 ```

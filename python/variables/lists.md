@@ -1,6 +1,7 @@
 # Python lists
 
-Lists in Python can be [sliced](../slices.md)
+- Lists in Python can be [sliced](../slices.md)
+- You can create a list using [list comprehensions](../loops/comprehension.md)
 
 > All the methods that accept an index can also accept a **negative index** where `-1` is the last element in the list and so on
 
