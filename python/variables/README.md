@@ -4,7 +4,10 @@
 - Floating point numbers: `1.5`, `3.1416`
 - Strings: `"hello world"`, `'Python'`
 - [Boolean](boolean.md): `True`, `False`
-	- In an integer context, boolean literals take the value of 1 and 0 respectively
+      - In an integer context, boolean literals take the value of 1 and 0 respectively
+- [Lists](lists.md)
+- Tuples: similar to `list` but immutable
+- [Maps](maps.md)
 
 ## Converting basic types
 
