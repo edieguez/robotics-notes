@@ -12,3 +12,25 @@
 | `float`   | 32-bit floating-point value | approximately ±3.40282347E+38F<br>(6-7 significant decimal digits)<br>Java implements IEEE 754 standard            |
 | `double`  | 64-bit floating-point value | approximately ±1.79769313486231570E+308<br>(15 significant decimal digits)                                         |
 | `char`    | 16-bit Unicode value        | 0 to 65,536                                                                                                        |
+
+## Default types
+
+- `int` is the default type for an integral literal
+- This behavior can be overridden adding an `l`/`L` at the end of the number. i.e. `123L` will create a `long` value
+
+## Alternative notations
+
+``` java
+int bin = 0B10;
+int oct = 017;
+int hex = 0xFF;
+
+log.info("binary: {}", bin);
+log.info("octal: {}", oct);
+log.info("hexadecimal: {}", hex);
+```
+
+> **Output**\
+> binary: 2\
+> octal: 15\
+> hexadecimal: 255
