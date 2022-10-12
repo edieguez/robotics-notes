@@ -4,7 +4,7 @@ A code block is code that is between brackets (`{` and `}`)
 
 ## Order of initialization
 
-1. Fields and instance initializer blocks are run in the order they appear in the file
+1. Fields and static/instance initializer blocks are run in the order they appear in the file
 2. The constructor runs after all fields and instance initializer blocks have run
 3. `static` and instance blocks run **before** an static method. i.e. `main` method
 
@@ -27,9 +27,9 @@ public class Generic {
 }
 ```
 
-> **Output**
-> [main] INFO com.artemisa.Generic - Static code executed
-> [main] INFO com.artemisa.Generic - Anonymous block executed
+> **Output**<br>
+> [main] INFO com.artemisa.Generic - Static code executed<br>
+> [main] INFO com.artemisa.Generic - Anonymous block executed<br>
 > [main] INFO com.artemisa.Generic - Generic instance
 
 ## `static` block
