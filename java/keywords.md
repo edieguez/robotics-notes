@@ -43,7 +43,7 @@
 1. `static`
 1. `strictfp`
 1. `super`
-1. `switch`
+1. [switch](loops/switch.md)
 1. `synchronized`
 1. `this`
 1. `throw`
