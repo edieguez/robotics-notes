@@ -17,6 +17,8 @@
 
 - `int` is the default type for an integral literal
 - This behavior can be overridden adding an `l`/`L` at the end of the number. i.e. `123L` will create a `long` value
+- `double` is the default type for a floating-point literal
+- This behavior can be overridden adding an `f`/`F` at the end of the number. i.e. `123.45F` will create a `float` value
 
 ## Alternative notations
 
