@@ -43,17 +43,17 @@
 1. `static`
 1. `strictfp`
 1. `super`
-2. [switch](conditionals/switch.md)
-3. `synchronized`
-4. `this`
-5. `throw`
-6. `throws`
-7. `transient`
-8. `true`**
-9. `try`
-10. `void`
-11. `volatile`
-12. `while`
+1. [switch](conditionals/switch.md)
+1. `synchronized`
+1. `this`
+1. `throw`
+1. `throws`
+1. `transient`
+1. `true`**
+1. `try`
+1. `void`
+1. `volatile`
+1. `while`
 
 **\*** The reserved words const and goto aren't actually used in Java. They are reserved so that people coming from other programming languages don't use them by accident—and in theory, in case Java wants to use them one day
 
