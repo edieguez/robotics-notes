@@ -1,5 +1,7 @@
 # `switch`
 
+![switch_basic_syntax](../assets/switch_basic_syntax.png)
+
 ## Basic syntax
 
 ``` java
