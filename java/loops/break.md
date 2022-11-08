@@ -2,6 +2,8 @@
 
 ![break basic syntax](../assets/break_basic_syntax.png)
 
+It is highly similar to the [continue](continue.md) statement
+
 In a normal case, the `break` statement transfers the control out to the enclosing statement or loop
 
 This is true for
