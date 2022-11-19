@@ -1,6 +1,6 @@
 # Default values
 
-> This only applies for class and instance variables
+> This only applies for class and instance variables. **Object references also includes [arrays](arrays.md)**
 
 | Type                           | Default value  |
 |:------------------------------:|:--------------:|
