@@ -8,5 +8,5 @@
 
 1. [Present continuous/progressive (**I'm doing**)](present_continuous.md)
 2. [Present simple (**I do**)](present_simple.md)
-3. Past simple (I did)
+3. [Past simple (**I did**)](past_simple.md)
 4. Past continuous (I was doing)
