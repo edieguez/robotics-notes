@@ -2,7 +2,7 @@
 
 Compiles a Python script into an executable binary
 
-> The project is compressed into a single file. During execution is decompressed in the temporary folder. If you have operations dependant on the binary base dir this option is almos not usable
+> The project is compressed into a single file. During execution is decompressed in the temporary folder. If you have operations dependant on the binary base dir this option is almost not usable
 
 ```shell
 pip install pyinstaller
