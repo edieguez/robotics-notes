@@ -17,7 +17,7 @@
 1. [Present perfect continuous (**I have been doing**)](present_perfect_continuous.md)
 1. [Past perfect (**I had done**)](past_perfect.md)
 1. [Past perfect continuous (**I had been doing**)](past_perfect_continuous.md)
-1. **Have** and **have got**
+1. [**Have** and **have got**](have_and_have_got.md)
 1. **Used to (do)**
 
 ## Future
