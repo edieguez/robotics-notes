@@ -11,9 +11,9 @@ A mnemonic for remembering the rules is `SAM` which stands for `Single Abstract 
 
 There are four main types of functional interfaces:
 
-1. `Predicate` - takes one parameter and returns a boolean
-2. `Consumer` - takes one parameter and returns nothing
-3. `Function` - takes one parameter and returns a value
-4. `Supplier` - takes no parameters and returns a value
+1. [Predicate](predicate.md) - takes one parameter and returns a boolean
+2. [Consumer](consumer.md) - takes one parameter and returns nothing
+3. [Function](function.md) - takes one parameter and returns a value
+4. [Supplier](supplier.md) - takes no parameters and returns a value
 
 > **Please note that, these are not the only types of functional interfaces. There are many more. These are just the most common ones.**
