@@ -4,7 +4,7 @@ The most popular `List` implementation is `ArrayList`. It is a resizable array, 
 
 ## Array to List
 
-Both of the following methods return a `Serializable` and `RandomAccess` list backed by the specified array. The returned list is fixed-size, which means that you cannot add or remove elements from it. If you try to do so, you will get an `UnsupportedOperationException`. Both support the `varargs` syntax.
+Both of the following methods return a `Serializable` and `RandomAccess` list backed by the specified array. The returned list is fixed-size, which means that you cannot add or remove elements from it. If you try to do so, you will get an `UnsupportedOperationException`. Both support the [varargs](../methods/varargs.md) syntax.
 
 ### Backed List
 
