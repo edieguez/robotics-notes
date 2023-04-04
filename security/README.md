@@ -1,5 +1,9 @@
 # Useful links
 
+## General
+
+- [Security zines](https://securityzines.com/#zines)
+
 ## Privileges Escalation Techniques (Basic to Advanced) in Linux
 
 - [Part 1](https://systemweakness.com/privileges-escalation-techniques-basic-to-advanced-in-linux-3cff8b623b)
