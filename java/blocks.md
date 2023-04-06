@@ -27,9 +27,9 @@ public class Generic {
 }
 ```
 
-> **Output**<br>
-> [main] INFO com.artemisa.Generic - Static code executed<br>
-> [main] INFO com.artemisa.Generic - Anonymous block executed<br>
+> **Output**\
+> [main] INFO com.artemisa.Generic - Static code executed\
+> [main] INFO com.artemisa.Generic - Anonymous block executed\
 > [main] INFO com.artemisa.Generic - Generic instance
 
 ## `static` block

@@ -40,7 +40,7 @@
 1. `public`
 1. `return`
 1. `Short`
-1. `static`
+1. [static](static.md)
 1. `strictfp`
 1. `super`
 1. [switch](conditionals/switch.md)
