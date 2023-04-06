@@ -9,18 +9,18 @@ Another important rule is that **compile-time constants are stored in the string
 ``` java
 String foo = "foo";
 
-log.info("{}", fooA == "foo");
-log.info("{}", fooA == "f" + "oo"); // compile-time constant
-log.info("{}", fooA == "f".concat("oo"));
-log.info("{}", fooA == " foo".trim());
-log.info("{}", fooA == new String("foo"));
-log.info("{}", fooA == new String("foo").intern());
+log.info("{}", foo == "foo");
+log.info("{}", foo == "f" + "oo"); // compile-time constant
+log.info("{}", foo == "f".concat("oo"));
+log.info("{}", foo == " foo".trim());
+log.info("{}", foo == new String("foo"));
+log.info("{}", foo == new String("foo").intern());
 ```
 
 > **Output**
-> true
-> true
-> false
-> false
-> false
+> true\
+> true\
+> false\
+> false\
+> false\
 > true
