@@ -3,6 +3,7 @@
 ## General
 
 - [Security zines](https://securityzines.com/#zines)
+- [Introduction to OSINT](https://infosecwriteups.com/introduction-to-osint-2c92597988d1)
 
 ## Privileges Escalation Techniques (Basic to Advanced) in Linux
 
