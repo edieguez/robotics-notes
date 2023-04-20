@@ -20,3 +20,16 @@
 - **4** Add user to a group
 - **5** Remove user from a group
 - **q** Quit editing user, back to user select
+
+## `sethc.exe` trick
+
+> Does not work on Windows 10 or any Windows with updates from 2019 and later on
+
+1. Boot into a live-cd
+2. Go to `Windows/System32`
+3. In a terminal run these commands
+   1. `cp -v sethc.exe sethc.exe.bak`
+   2. `cp -v cmd.exe sethc.exe`
+4. Reboot into Windows
+5. Press shift 5 times. You should get a command prompt
+6. Run `control userpasswords2`
