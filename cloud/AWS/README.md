@@ -10,7 +10,7 @@
 1. `CloudFront` - Content Delivery Network
 1. [Beanstalk - Application Deployment Service](beanstalk.md)
 1. `VPC` - Virtual Private Cloud
-1. `Lambda` - Serverless Computing
+1. [Lambda - Serverless Computing](lambda.md)
 1. `DinamoDB` - NoSQL Database
 1. `SNS` - Simple Notification Service
 
