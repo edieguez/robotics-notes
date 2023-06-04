@@ -23,7 +23,8 @@
 
 1. [`S3` - Simple Storage Service](services/s3.md)
 1. [`S3` Glacier - Long-term storage](services/s3-glacier.md)
-1. `EBS` - Elastic Block Storage
-1. `EFS` - Elastic File System
+1. [`EBS` - Elastic Block Storage](services/ebs.md)
+1. [`EFS` - Elastic File System](services/efs.md)
+1. [`Amazon FSx for Windows File server` - Windows file server](services/fsx.md)
 1. `AWS snowball` - Physical data transport
 1. `AWS snowmobile` - Physical data transport
