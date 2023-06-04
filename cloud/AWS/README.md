@@ -1,5 +1,11 @@
 # AWS general notes
 
+## Methods to interact with AWS
+
+1. `AWS Console` web interface
+2. `AWS CLI` command line interface
+3. `AWS SDK` software development kit
+
 ## Basic services
 
 1. `SES` - Simple Email Service
@@ -7,15 +13,9 @@
 1. `S3` - Simple Storage Service
 1. `RDS` - Relational Database Service
 1. `SQS` - Simple Queue Service
-1. `CloudFront` - Content Delivery Network
+1. [CloudFront - Content Delivery Network](services/cloudfront.md)
 1. [Beanstalk - Application Deployment Service](services/beanstalk.md)
 1. [VPC - Virtual Private Cloud](services/vpc.md)
 1. [Lambda - Serverless Computing](services/lambda.md)
 1. `DinamoDB` - NoSQL Database
 1. `SNS` - Simple Notification Service
-
-## Methods to interact with AWS
-
-1. AWS Console: web interface
-2. AWS CLI: command line interface
-3. AWS SDK: software development kit
