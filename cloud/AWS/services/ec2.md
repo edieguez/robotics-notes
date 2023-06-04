@@ -4,7 +4,7 @@
 - Designed to make web-scale cloud computing easier for developers
 - **Resources cannot be changed without downtime**
 
-See also [AMI](ami.md)
+See also [AMI](../ami.md)
 
 ## Categories
 
