@@ -26,5 +26,5 @@
 1. [`EBS` - Elastic Block Storage](services/ebs.md)
 1. [`EFS` - Elastic File System](services/efs.md)
 1. [`Amazon FSx for Windows File server` - Windows file server](services/fsx.md)
-1. `AWS snowball` - Physical data transport
-1. `AWS snowmobile` - Physical data transport
+1. [`AWS snowball` - Physical data transport](services/snowball.md)
+1. [`AWS snowmobile` - Physical data transport](services/snowmobile.md)
