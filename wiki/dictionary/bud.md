@@ -1,5 +1,5 @@
 # BUD
 
 Bottlenecks
-Unnecesary work
+Unnecessary work
 Duplicated work
