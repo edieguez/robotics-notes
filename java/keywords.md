@@ -19,7 +19,7 @@
 1. `enum`
 1. `extends`
 1. `false`**
-1. `final`
+1. [final](variables/final.md)
 1. `finally`
 1. `float`
 1. `for`
