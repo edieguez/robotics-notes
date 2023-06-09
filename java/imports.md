@@ -1,5 +1,7 @@
 # Imports
 
+> See also [static imports](static.md#static-imports)
+
 - `java.lang` is imported automatically
 - Package names contain (usually) the name of the company's website written backwards. i.e. `com.google.guava`
 - You can use wildcards to import all the classes in a package. i.e. `import java.util.*`
