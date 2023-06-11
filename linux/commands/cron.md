@@ -29,7 +29,7 @@ crontab -e
 crontab -l
 ```
 
-## [fcron](https://www.systutorials.com/docs/linux/man/5-fcrontab)
+## [fcron](http://fcron.free.fr/doc/en/using-fcron.html)
 
 You can use it if the system is not always up and you need your missing jobs to be executed.
 To activate this option add [this](http://fcron.free.fr/doc/en/fcrontab.5.html#FCRONTAB.5.BOOTRUN) at the start of your fcrontab
@@ -45,3 +45,9 @@ Add the [`DISPLAY`](https://wiki.archlinux.org/title/Cron#Running_X.org_server-b
 ```shell
 * * * * * DISPLAY=:0.0 firefox 'https://google.com'
 ```
+
+## Email output
+
+`cron` and `fcron` use the `sendmail` command to send the job's output through email. There's multiple packages that provide this functionality
+
+1. [nullmailer](nullmailer.md) which allows to send emails using a [Gmail](https://gmail.com) accounts
