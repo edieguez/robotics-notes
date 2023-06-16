@@ -17,3 +17,9 @@
 - [part 1](https://medium.com/hackingmill/privilege-escalation-linux-part-1-8efce332f76d)
 - [part 2](https://medium.com/@Varma_Chekuri/privilege-escalation-in-linux-2-c2ececd7f385)
 - [part 3](https://medium.com/@Varma_Chekuri/privilege-escalation-in-linux-3-b1430b1ea221)
+
+## Links
+
+- [The MALVARE repo](https://github.com/Da2dalus/The-MALWARE-Repo)
+- [ANY.RUN](https://any.run)
+- [Qualys](https://www.qualys.com/community-edition)
