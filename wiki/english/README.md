@@ -23,8 +23,7 @@
 ## Future
 
 1. [Present tenses (**I am doing/I do**) for the future](present_for_future.md)
-1. (**I'm**) **going to** (**do**)
-1. **Will/shall**
-1. **I will** and **I'm going to**
-1. **Will be doing** and **will have done**
-1. When I do/when I've done, **when** and **if**
+2. [Will/shall](./will_shall.md)
+3. **I will** and **I'm going to**
+4. **Will be doing** and **will have done**
+5. When I do/when I've done, **when** and **if**
