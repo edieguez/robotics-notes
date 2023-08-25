@@ -39,3 +39,15 @@ let emails = [
 console.log(emails.filter(email => emailRegex.test(email)))
 // → [ 'jhon@gmail', 'jane@outlook' ]
 ```
+
+## Matching groups
+
+```javascript
+// Invert lastname, firstname to firstname lastname
+'Liskov, Barbara'.replace(/(\w+), (\w+)/g, '$2 $1');
+// → Barbara Liskov
+
+// Make letters uppercase
+'a1b2c3d4e5f6g7h8i9j0'.replace(/([a-z])/g, str => str.toUpperCase());
+// → A1B2C3D4E5F6G7H8I9J0
+```
