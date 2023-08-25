@@ -1,6 +1,7 @@
 # [Regular expressions](https://www.regular-expressions.info/tutorial.html)
 
-> Is a sequence of characters that specifies a search pattern in text
+> Is a sequence of characters that specifies a search pattern in text\
+> You can test your regex at [regex101.com](https://regex101.com)
 
 ## Literal characters
 
