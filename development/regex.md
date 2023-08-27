@@ -85,6 +85,16 @@ Quantifiers are used to specify how many times a character, group or character c
 - `{n,}` Matches the preceding character or group `n` or more times
 - `{n,m}` Matches the preceding character or group at least `n` times, but not more than `m` times
 
+### Non-greedy quantifiers
+
+Non-greedy quantifiers match as few characters as possible. They are used by appending a question mark `?` to the quantifier. The following example will match `cat` in `catcatcat`
+
+``` regex
+cat{1,}?
+```
+
+**`Non-greedy` behavior can be applied to any quantifier**
+
 ## Grouping
 
 Grouping is done with parentheses `()`. The following example will match `gmail.com` or `hotmail.com`
