@@ -1,5 +1,7 @@
 # Promises
 
+> See also [async/await](async-await.md)
+
 Is an object representation of the eventual completion (or failure) of an asynchronous operation, and its resulting value.
 
 - Additional arguments for the `resolve` and `reject` functions will be ignored
