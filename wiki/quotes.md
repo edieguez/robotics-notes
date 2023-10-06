@@ -10,3 +10,6 @@
     Therefore, if you write the code as cleverly as possible, you are,
     by definition, not smart enough to debug it.
                     -- Brian W. Kernighan
+---
+    Feris maledictus catenas maledictus
+    Factus gladio deus honoratus
