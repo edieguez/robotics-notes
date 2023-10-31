@@ -4,6 +4,10 @@
 - At most, only one class per file can be public
 - The public class **must** match the filename
 
+## Definition
+
+`public`|*`default`* [`abstract`|`final`] `class` *ClassName* [`extends` *AnotherClass*] [`implements` *InterfaceName*] { /\* class body */ }
+
 ## Basic class structure (PIC)
 
 1. **P**ackage
