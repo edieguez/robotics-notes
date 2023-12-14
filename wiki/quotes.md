@@ -13,3 +13,7 @@
 ---
     Feris maledictus catenas maledictus
     Factus gladio deus honoratus
+---
+    Puedo calcular el movimiento de los cuerpos celestes,
+    pero no la locura de la gente.
+                    -- Isaac Newton
