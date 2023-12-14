@@ -4,6 +4,10 @@
 
 Open Source Intelligence (OSINT) is the collection and analysis of information that is gathered from public, or open, sources. OSINT is primarily used in national security, law enforcement, and business intelligence functions and is of value to analysts who use non-sensitive intelligence in answering classified, unclassified, or proprietary intelligence requirements across the previous intelligence disciplines.
 
+## Tools
+
+- [dirs3arch](https://github.com/puniaze/dirs3arch) - HTTP(S) directory/file brute forcer. Similar to `dirb` and `dirbuster`.
+
 ## Useful links
 
 - [OSINT Framework](https://osintframework.com)
