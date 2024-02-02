@@ -6,6 +6,8 @@
 2. If `--target` is not specified, the `target` directory is the parent directory of the `.dotfiles` directory
 3. Use `--simulate --verbose=1` to see what would be done without actually doing it
 
+> [YouTube video for simple setup and usage](https://www.youtube.com/watch?v=y6XCebnB9gs)
+
 ## `package` to `target`
 
 ```bash
