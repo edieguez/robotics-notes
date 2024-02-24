@@ -17,3 +17,11 @@
     Puedo calcular el movimiento de los cuerpos celestes,
     pero no la locura de la gente.
                     -- Isaac Newton
+---
+
+    Muchos grandes y sabios nómades aire se han separado del mundo y
+    alcanzado la iluminación espiritual... pero el avatar jamás podrá
+    hacerlo, porque su único deber es con el mundo... te ofrezco este
+    saber Aang; tu deber te obliga a sacrificar tus propias necesidades
+    espirituales y hacer lo que sea necesario para proteger el mundo
+                    -- YangChen
