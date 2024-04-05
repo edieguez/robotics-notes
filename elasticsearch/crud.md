@@ -6,6 +6,9 @@ Elasticsearch uses a REST API to allow the user to interact with the database. T
 >
 > ```bash
 > curl -u $username:$password -k ...
+> # Get data from Elasticsearch and filter the output using jq
+> curl -su $username:$password http://127.0.0.1:9200/kibana_sample_data_flights/_search | jq '.hits.hits'
+> curl --silent --user $username:$password http://127.0.0.1:9200/kibana_sample_data_flights/_search | jq '.hits.hits'
 > ```
 
 ## Create collection
