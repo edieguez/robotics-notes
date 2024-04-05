@@ -2,7 +2,7 @@
 
 ## Allow insecure connections
 
-To allow insecure connections, you need to disable the SSL verification in the Elasticsearch configuration file. This is useful when you are using CURL to interact with the Elasticsearch database.
+To allow insecure connections, you need to disable the SSL verification in the Elasticsearch configuration file. This is useful when you are using CURL to interact with the Elasticsearch database (error 52)
 
 1. Open the `elasticsearch.yml` file
 
