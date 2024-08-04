@@ -2,12 +2,13 @@
 
 ![switch_basic_syntax](../assets/switch_basic_syntax.png)
 
+> This switch version with `case` values combined was introduced in **Java 14**
+
 ## Basic syntax
 
 ``` java
 switch (option) {
-    case "A":
-    case "B":
+    case "A", "B": // Multiple case values in a single case statement
         // Statements A and B
         break;
     case "C":
@@ -28,6 +29,7 @@ This also includes their wrappers for the primitive types
 - `int`
 - `enum`
 - `String`
+- `var` (if the type resolves to one of the preceding types)
 
 ## `case` constants
 
