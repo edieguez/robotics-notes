@@ -33,3 +33,5 @@
 4. Reboot into Windows
 5. Press shift 5 times. You should get a command prompt
 6. Run `control userpasswords2`
+   - Alternatively, you can run `netplwiz`
+   - Yet another alternative is `net user MY_USERNAME MY_NEW_PASSWORD`
