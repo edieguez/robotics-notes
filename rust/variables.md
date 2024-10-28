@@ -33,6 +33,19 @@ let mut (multi1, multi2) = (5, 6);
 let mut (multi1, multi2): (i32, i32) = (5, 6);
 ```
 
+## Another way to declare variables
+
+The type can be added at the end of the number literal
+
+```rust
+let integer = 5u32;
+let float = 3.14f64;
+
+// Or using the underscore for readability
+let integer = 5_u32;
+let float = 3.14_f64;
+```
+
 ## Constants
 
 - Declared using `const` keyword
@@ -42,3 +55,7 @@ let mut (multi1, multi2): (i32, i32) = (5, 6);
 ```rust
 const MAX_POINTS: i32 = 100_000;
 ```
+
+## See also
+
+- [Scalar types](scalar-types.md)
