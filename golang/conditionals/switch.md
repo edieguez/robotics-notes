@@ -37,3 +37,22 @@ func isVowel(c rune) bool {
     }
 }
 ```
+
+## Type `switch`
+
+- The `switch` statement can also be used to check the type of an interface value
+- The `case` clauses specify the types and the statements are executed if the type matches
+- The `fallthrough` statement is not allowed in a type switch
+
+```go
+func printType(v interface{}) {
+    switch v := v.(type) {
+    case int:
+        fmt.Println("int:", v)
+    case string:
+        fmt.Println("string:", v)
+    default:
+        fmt.Println("unknown")
+    }
+}
+```
