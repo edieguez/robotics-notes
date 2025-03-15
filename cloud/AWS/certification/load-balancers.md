@@ -21,19 +21,18 @@ They can be used with the following components
 
 ## Application Load Balancer (ALB)
 
-Can redirect traffic based on
-
-- Query params
-- Fixed hostname
-
-It adds the following headers to the request
-
-- `X-Forwarded-For` - The IP address of the client
-- `X-Forwarded-Proto` - The protocol used by the client
-- `X-Forwarded-Port` - The port used by the client
+- **Supports HTTP, HTTPS and Web Socket**
+- Can redirect traffic based on
+  - Query params
+  - Fixed hostname
+- It adds the following headers to the request
+  - `X-Forwarded-For` - The IP address of the client
+  - `X-Forwarded-Proto` - The protocol used by the client
+  - `X-Forwarded-Port` - The port used by the client
 
 ## Network Load Balancer (NLB)
 
+- **Provides the highest performance**
 - Works in layer 4 (OSI model)
   - Allows TCP and UDP traffic
 - Has one public IP per AZ
