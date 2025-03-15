@@ -1,5 +1,11 @@
 # [EC2 (Elastic Cloud Compute)](https://aws.amazon.com/ec2/)
 
+It goes under the category *Infrastructure as a Service*. Its main capabilities are
+
+- Rent virtual machines (EC2)
+- Storing data on virtual drives (EBS)
+- Distributing load across machines (ELB)
+- Scaling the services using an auto-scaling group (ASG)
 - Web service that provides resizable compute capacity in the cloud
 - Designed to make web-scale cloud computing easier for developers
 - **Resources cannot be changed without downtime**
@@ -27,6 +33,25 @@
 - `r5a.4xlarge` - `r` stands for `memory optimized`, `5a` stands for the generation, and `4xlarge` stands for the size
 - `u-6tb1.metal` - `u` stands for `bare metal`, `6tb1` stands for the generation, and `metal` stands for the size
 - `mac1.metal` - `mac` stands for `mac instance`, `1` stands for the generation, and `metal` stands for the size
+
+## Sizing and configuration options
+
+- Operating system
+  - Linux
+  - Windows
+  - Mac OS
+- How much compute power and cores (CPU)
+- How much random-access memory (RAM)
+- How much storage space
+  - Network-attached (EBS or EFS)
+  - Hardware (EC2 instance store)
+- Network card
+  - Speed of the card
+  - Public IP address
+- Firewall rules
+  - Configured through a `security group`
+- Bootstrap script
+  - Runs at first launch
 
 ## Root device storage
 
