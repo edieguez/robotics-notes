@@ -154,3 +154,11 @@
 
 - **Log insights**
 - **Container/Lambda/contributor/application insights**
+
+## Key Management Service (KMS)
+
+- **Encryption** for an AWS service
+
+## Secrets Manager
+
+- **Secrets** for **RDS** or **Aurora**
