@@ -1,0 +1,29 @@
+# VPC summary
+
+- `CIDR` Classless Inter-Domain Routing. IP range for your VPC
+- `VPC` Virtual Private Cloud
+- `Subnet` A range of IP addresses within your VPC. Each subnet must reside in one AZ and a **CIDR** must be specified
+- `Internet Gateway` A gateway that allows traffic between your VPC and the internet
+- `Route Table` must be edited to add routes from subnets to the IGW, VPC peering, connections, VPC endpoints, etc
+- `Bastion Host` public EC2 instance to SSH into, that has SSH connectivity to EC2 instances in private subnets
+- `NAT Instances` gives Internet access to EC2 instances in private subnets. **Deprecated**
+- `NAT Gateway` managed by AWS, provides scalable Internet access to private EC2 instances, when the target is an IPv4 address
+- `NACL` Network Access Control List. Stateless firewall that controls traffic in and out of one or more subnets. It supports **ephemeral ports**
+- `Security Group` Stateful, operate at the EC2 instance level
+- `VPC Peering` Connects two VPCs, allowing them to communicate using private IP addresses
+  - CIDR must not overlap
+  - **No transitive peering**, so if VPC A is peered with VPC B and VPC B is peered with VPC C, VPC A and VPC C can't communicate
+- `VPC Endpoints` Enables you to privately connect your VPC to supported AWS services and VPC endpoint services powered by **PrivateLink** without requiring an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection
+- `VPC Flow Logs` Capture information about the IP traffic going to and from network interfaces in your VPC
+- `Site-to-Site VPN` Setup a Customer Gateway on DC, a Virtual Private Gateway on VPC and sit-to-site VPN connection over public Internet
+- `AWS VPN CloudHub` Connect multiple remote customer networks to your VPC
+- `Direct Connect` setup a Virtual Private Gateway on VPC and establish a direct private connection to an **AWS Direct Connect Location**
+- `Direct Connect Gateway` - setup a Direct Connect to many VPCs in different AWS regions
+- `AWS PrivateLink /VPC Endpoint Services`
+  - Connect services privately from your service VPC to customers VPC
+  - Doesn't need VPC Peering, public Internet, NAT Gateway, Route Tables
+  - Must be used with Network Load Balancer & ENI
+- `ClassicLink` - connect EC2-Classic EC2 instances privately to your VPC
+- `Transit Gateway` - transitive peering connections for VPC, VPN & DX
+- `Traffic Mirroring` - copy network traffic from ENls for further analysis
+- `Egress-only Internet Gateway` - like a NAT Gateway, but for IPv6
