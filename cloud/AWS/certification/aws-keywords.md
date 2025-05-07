@@ -53,6 +53,7 @@
 - Big objects, not great for small ones
 - **Versioning**
 - **Object size is <= 5TB**
+- **Quick data transfer** with Transfer Acceleration enabled
 
 ## ElastiCache
 
@@ -162,3 +163,7 @@
 ## Secrets Manager
 
 - **Secrets** for **RDS** or **Aurora**
+
+## Elastic File Storage (EFS)
+
+- **Shared file storage** among **EC2 instances**
