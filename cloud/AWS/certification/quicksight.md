@@ -1,8 +1,8 @@
-# QuickSight
+# [QuickSight](https://aws.amazon.com/quicksight/?amazon-quicksight-whats-new.sort-by=item.additionalFields.postDateTime&amazon-quicksight-whats-new.sort-order=desc)
 
 Serverless machine learning-powered **business intelligence** service to create interactive dashboards
 
-The pricing is per session and per user, and it is based on the number of sessions and the amount of data processed. It is a **pay-as-you-go** service.
+The pricing is per session and per user, and it is based on the number of sessions and the amount of data processed. It is a **pay-as-you-go** service. **Access is controlled through users and groups**
 
 It has integrations with
 

@@ -1,0 +1,16 @@
+# Practice exam notes
+
+> A company is looking at **storing** their **less frequently accessed files** on AWS that can be **concurrently accessed** by **hundreds fo Amazon EC2 instances**. The company needs the most **cost-effective file storage service** that provides **immediate access** to data whenever needed. Which of the following options represents the best solution for the given requirements?
+>> `Amazon Elastic File System (EFS) Standard-IA storage class`
+>> File storage service for **use with Amazon compute (EC2, containers, serverless) and on-premises servers**. Amazon EFS provides a file system interface, file system access semantics (such as strong consistency and file locking), and **concurrently accessible storage** for **up to thousands of Amazon EC2 instances**.
+>> The Amazon **S3 Standard–IA storage** class **reduces storage costs for files that are not accessed every day**. It does this **without sacrificing the high availability, high durability, elasticity, and POSIX file system access** that Amazon EFS provides. AWS recommends Standard-IA storage if you need your full dataset to be readily accessible and want to automatically save on storage costs for files that are less frequently accessed.
+---
+> To improve the performance and security of the application, the engineering team at a company has created an **Amazon CloudFront distribution** with an **Application Load Balancer** as the custom origin. The team has also set up an **AWS Web Application Firewall (AWS WAF)** with Amazon CloudFront distribution. The security team at the company has noticed a surge in **malicious attacks from a specific IP** address to steal sensitive data stored on the Amazon EC2 instances.
+> As a solutions architect, which of the following actions would you recommend to stop the attacks?
+>> `Create an IP match condition in the AWS WAF to block the malicious IP address`
+>> `AWS WAF` is a **web application firewall** that helps protect your web applications or APIs **against common web exploits that may affect availability, compromise security, or consume excessive resources**. AWS WAF gives you control over how traffic reaches your applications by enabling you to create **security rules** that block **common attack patterns**, such as **SQL injection** or **cross-site scripting**, and rules that **filter out specific traffic patterns** you define.
+>> If you want to **allow or block web requests based on the IP addresses** that the requests originate from, create one or more **IP match conditions**. An IP match condition **lists up to 10,000 IP addresses or IP address ranges** that your requests originate from.
+---
+> An analytics company wants to **improve the performance** of its big data processing workflows running on **Amazon Elastic File System (Amazon EFS)**. Which of the following performance modes should be used for Amazon EFS to address this requirement?
+>> `Max I/O performance mode`
+>> Used to **scale to higher levels of aggregate throughput and operations per second**. This scaling is done with a **tradeoff of slightly higher latencies for file metadata operations**. **Highly parallelized applications and workloads**, such as **big data analysis**, **media processing**, and **genomic analysis**, can **benefit from this mode**.

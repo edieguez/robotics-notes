@@ -46,3 +46,7 @@
     - Reserved
     - Spot instances
   - Instances cannot be hibernated more than 60 days
+
+## [Instance termination default policy](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html)
+
+![Default termination policy flow](assets/default-termination-policy-flow.png)

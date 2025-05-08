@@ -16,7 +16,7 @@
 - Uses **replicas**
 - **Read replicas**
 
-## AWS network firewall
+## [AWS network firewall](https://aws.amazon.com/network-firewall)
 
 - **Traffic flow inspection and filtering**
 
