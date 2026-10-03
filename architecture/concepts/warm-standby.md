@@ -4,5 +4,5 @@ A warm standby is a backup facility that is running, but is not actively serving
 
 ## See also
 
-- [Cold standby](./cold-standby.md)
+- [Cold standby](./cold-stanby.md)
 - [Hot standby](./hot-standby.md)

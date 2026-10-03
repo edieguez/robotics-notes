@@ -4,7 +4,7 @@
 
 Structural pattern matching, also known as `match case`
 
-## [PEP](../../wiki/dictionary/pep.md)
+## [PEP](../../../wiki/dictionary/pep.md)
 
 - [PEP 636 – Structural Pattern Matching: Tutorial](https://peps.python.org/pep-0636)
 - [PEP 634 – Structural Pattern Matching: Specification](https://peps.python.org/pep-0634)

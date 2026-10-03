@@ -1,6 +1,6 @@
 # Amazon Athena
 
-**Serverless** query service to analyze data store in [S3](s3.md). Uses **standard SQL to query files** (build in Presto)
+**Serverless** query service to analyze data store in [S3](./s3.md). Uses **standard SQL to query files** (build in Presto)
 
 Supports the following file formats
 

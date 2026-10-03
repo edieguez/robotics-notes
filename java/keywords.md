@@ -19,7 +19,7 @@
 1. `enum`
 1. `extends`
 1. `false`**
-1. [final](variables/final.md)
+1. [final](./final.md)
 1. `finally`
 1. `float`
 1. `for`
@@ -43,7 +43,7 @@
 1. [static](static.md)
 1. `strictfp`
 1. `super`
-1. [switch](conditionals/switch.md)
+1. [switch](./conditionals/switch.md)
 1. `synchronized`
 1. `this`
 1. `throw`

@@ -8,9 +8,9 @@ In a normal case, the `break` statement transfers the control out to the enclosi
 
 This is true for
 
-- [`while` loop](while.md)
-- [`do`...`while` loop](do_while.md)
-- [`for` loop](for.md)
+- [`while` loop](./while.md)
+- [`do`...`while` loop](./do_while.md)
+- [`for` loop](./for.md)
 - [enhanced `for` loop](for_each.md)
 - [switch](../conditionals/switch.md)
 

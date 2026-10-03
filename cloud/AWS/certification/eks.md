@@ -2,7 +2,7 @@
 
 It is a way to launch and manage Kubernetes clusters on AWS
 
-- It is an alternative to [ECS](ecs.md), similar goal but different API
+- It is an alternative to [ECS](./ecs.md), similar goal but different API
 - Unlike `ECS`, `Kubernetes` is open source
 - Supports `EC2` if your want to deploy worker nodes of `Fargate` to deploy serverless containers
 - **Kubernetes is cloud-agnostic** that means it can be used on any cloud

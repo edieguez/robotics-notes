@@ -1,6 +1,6 @@
 # [Elastic Block Storage (EBS)](https://aws.amazon.com/ebs)
 
-Storage for use with [EC2](ec2.md) instances. It can scale to petabytes of data
+Storage for use with [EC2](./ec2.md) instances. It can scale to petabytes of data
 
 1. Redundancy
 2. Snapshots

@@ -2,7 +2,7 @@
 
 Load balancer. Can scale up and down automatically based on incoming traffic and distribute traffic across multiple instances.
 
-- Integrates with [EC2](ec2.md), [ECS](ecs.md) and [Lambda](lambda.md)
+- Integrates with [EC2](./ec2.md), [ECS](./ecs.md) and [Lambda](./lambda.md)
   1. Application Load Balancer
   2. Network Load Balance
   3. Classic Load Balance
