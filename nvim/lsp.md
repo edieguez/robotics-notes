@@ -1,45 +1,66 @@
-# Language Server Protocol (LSP) support
+# LSP, diagnostics & Treesitter
 
 > [!IMPORTANT]
-> All of this features depend on the `lang.*` from `LazyExtras` and the `mason` plugin
+> All of these features depend on the `lang.*` extras from LazyExtras and on the `mason` plugin.
 
-You can access the Mason menu by hitting `Space-cm`. It will pop up a dialog where you can manage all your language
-servers
+## Mason & messages
 
-- `Space-sn` - open `Noice` dialog
-  - `a` - show all the messages in the current session
-  - `l` - show only the last **change**
-- `Space-cl` - show a picker with all the installed LSPs
+- `Space-cm` - open the Mason menu to install, update and remove language servers, formatters and linters
+- `Space-cl` - LSP info / configured servers for the current buffer (`Snacks.picker.lsp_config`)
+- `Space-snl` - Noice: show the last message
+- `Space-sna` - Noice: show all messages in the current session
+
+## LSP actions
+
+- `gd` - go to definition
+- `gr` - go to references
+- `K` - hover: contextual help for the symbol under the cursor
+- `Space-cr` - rename the symbol
+- `Space-cs` - show the document symbols tree
+- `Space-ss` - search symbols in the current file
+- `Space-sS` - search symbols in the whole workspace
+- `Space-ca` - code actions popup
+- `Space-cf` - format the buffer
+- `Space-co` - organize imports > [!WARNING] verify (depends on the language extra)
+- `Space-sR` - resume the previous picker search
+- `[[` / `]]` - go to the previous / next reference of the variable under the cursor
 
 ## Diagnostics
 
-You can navigate `diagnostics` using the `[` and `]` keys. While doing so, you have the following object available
+Navigate diagnostics with `[` and `]`. The following objects are available:
 
-1. `diagnostics`
-2. `warning`
-3. `error`
-4. `spell`
-5. `TODO`, `FIX`, `FIXME` comments
+1. `d` - general diagnostics
+2. `w` - warnings
+3. `e` - errors
+4. `s` - spelling
+5. `t` - TODO, FIX and FIXME comments
 
-### General shortcuts
+Examples: `[d` / `]d` for the previous / next diagnostic, `]e` for the next error, `[t` / `]t` for the previous / next TODO.
 
-- `Space-x` - invoke the quick fix dialog
-- `Space-xx` - show diagnostics window
-- `Space-ca` - code actions popup
-- `Space-cf` - code format
-- `Space-co` - optimize imports
-- `gd` - go to definition
-- `gr` - go to references
-- `Space-sR` - resume previous picker search
-- `Alt-t` - invoke Trouble window - looks it does not work on MacOS
-- `Control-q` - similar to the previous one. It dumps the results from a picker in the Quick Fix window
-- `K` - show *hover* dialog (contextual help)
-- `Space-ss` - list symbols
-- `Space-cs` - show the Document Symbols window
+### Diagnostics lists (Trouble)
+
+- `Space-xx` - workspace diagnostics window
+- `Space-xX` - diagnostics for the current buffer only
+- `Control-q` in a picker - send the results to the quickfix list
+- `Alt-t` - Trouble window > [!WARNING] verify. On macOS, `Alt` needs the terminal to send Option as Meta, otherwise the key does nothing
+
+## Treesitter textobject moves
+
+These are provided by `nvim-treesitter-textobjects` and combine with `[` (previous) or `]` (next).
+
+- `]f` / `[f` - next / previous function start (LazyVim default)
+- `]c` / `[c` - next / previous class start (LazyVim default)
+- `]a` / `[a` - next / previous parameter (LazyVim default)
+- `]m` / `[m` - next / previous method > [!WARNING] verify (in the plugin README, not in LazyVim defaults)
+- `]o` / `[o` - next / previous loop, conditional or block > [!WARNING] verify (same as above)
+- `]F` / `[F`, `]C` / `[C` - jump to the **end** of the function / class > [!WARNING] verify
+
+> [!NOTE]
+> `]h` / `[h` jump between git hunks. They come from `gitsigns.nvim`, not from Treesitter.
 
 ## Plugins
 
-1. `nvim-treesitter-context` - show code context in the editor. Similar to fixing a row/column in Excel
-   1. It can be installed using `LazyExtras`
-   2. Toggle it with `Space-ut`
-2. Investigate a better way to manage *marks* or *bookmarks*
+1. `nvim-treesitter-context` - shows the enclosing code context at the top of the window, similar to freezing a row in Excel
+   - Enabled through LazyExtras `ui.treesitter-context`
+   - Toggle it with `Space-ut`
+2. TODO: investigate a better way to manage *marks* or *bookmarks*
