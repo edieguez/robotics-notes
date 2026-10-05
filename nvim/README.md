@@ -10,7 +10,8 @@ Personal notes about Neovim with [LazyVim](https://www.lazyvim.org/). Keybinding
 
 ## Topics
 
-- [Motions, modes & search](./motions.md) - modes, motions, jumps, scrolling, `z` commands, find and incremental search
+- [Motions, modes & search](./motions.md) - modes, motions, jumps, scrolling, `z` commands, find and incremental
+search
 - [Editing, folds & text objects](./editing.md) - editing, case, surround, folds, comments, text objects
 - [Registers & yanky](./registers.md) - registers, clipboard and yank history
 - [Windows, buffers & tabs](./windows-buffers.md) - tabs, windows, buffers, pickers and splits
@@ -32,3 +33,5 @@ Personal notes about Neovim with [LazyVim](https://www.lazyvim.org/). Keybinding
 - `snacks.nvim` - pickers (files, buffers, grep, symbols)
 - `trouble.nvim` - diagnostics and lists window
 - `yanky.nvim` - better registers and yank history (LazyExtras `coding.yanky`)
+- `editor.dial` - better `Control-a` and `Control-x`. Allows to *increment* and *decrement* multiple text objects. In
+booelan values, it does a *toggle*.

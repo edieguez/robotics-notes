@@ -2,9 +2,13 @@
 
 ## Basic editing
 
-- `dd` - delete the entire line
-- `cc` - change the entire line
 - `.` - repeat the last change (dot repeat)
+- `cc` - change the entire line
+- `dd` - delete the entire line
+- `gw` - *wrap* text to a width determined by `textwidth`. It can be used with operators like
+  - `ig` - all the lines in the current document
+  - `p` - paragraph
+  - `w` - full command is `gww`. It wraps the current line
 
 ## Case manipulation
 
@@ -22,8 +26,8 @@ Enabled through LazyExtras `coding.mini-surround`.
 - `gsd{char}` - delete the surrounding `{char}`
 - `gsr{old}{new}` - replace the surrounding `{old}` with `{new}`
 
-> [!NOTE]
-> The `gsa` prefix comes from the LazyVim mini.surround config (`add = "gsa"`). Other keys are the mini.surround defaults.
+> [!NOTE] The `gsa` prefix comes from the LazyVim mini.surround config (`add = "gsa"`). Other keys are the mini.surround
+> defaults.
 
 ## Text objects (mini.ai)
 
